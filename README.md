@@ -26,9 +26,12 @@ Complete Example:
 	{
 		return SerializeHelper.Deserialize(data) as MyClass;
 	}
+  
+  
+**Notice:**  
 
-Notice:
-Currently,GDSerializeHelper supports commonly used data types,including class,Array and List.
+Currently,GDSerializeHelper supports commonly used data types,including class,Array and List.  
+
 Considering the size of data packet, GDSerializeHelper only serialize the public properties of class. 
 
 
