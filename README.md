@@ -1,10 +1,11 @@
-**GDSerializeHelper is a Serializer for Photon,which is a Cross-Platform Network Engine.**
+**What's GDSerializeHelper?**  
+GDSerializeHelper is a Serializer for Photon which is a Cross-Platform Network Engine.It can serialize the data into the Hashtable type supported by Photon and deserialize the Hashtable type data serialized by GDSerializeHelper into source type. The data serialized by GDSerializeHelper is small,which is much more smaller than the data serialized by BinaryFormatter.  
 
-To serialize the data into the Hashtable type,which is supported by Photon:  
+To serialize:
 
 	SerializeHelper.Serialize(data);
 
-To deserialize the Hashtable type data,which is serialized by GDSerializeHelper,into source type:  
+To deserialize:
 
 	SerializeHeler.Deserialize(data) as SourceType
 
